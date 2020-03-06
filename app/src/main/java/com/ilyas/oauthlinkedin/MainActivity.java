@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        LinkedInSignIn linkedInSignIn = new LinkedInSignIn();
+        linkedInSignIn.signInwithLinkedIn(this,"secret_key","api_key","call_back_url");
+
     }
 
 
