@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.ilyas.signinwithlinkedin.LinkedInCallBack;
-import com.ilyas.signinwithlinkedin.LinkedInSignIn;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -16,8 +14,8 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinkedInSignIn linkedInSignIn = new LinkedInSignIn();
-        linkedInSignIn.signInwithLinkedIn(this,"secret_key","api_key","call_back_url");
+     /*   LinkedInSignIn linkedInSignIn = new LinkedInSignIn();
+        linkedInSignIn.signInwithLinkedIn(this,"secret_key","api_key","call_back_url");*/
 
     }
 

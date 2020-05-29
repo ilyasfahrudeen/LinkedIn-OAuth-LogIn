@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Dexter.Internal.Theme.Transparent"
+    tools:context="io.eventify.csiro.signInOption.LinkedInOAuth">
+    <WebView android:id="@+id/linkedInWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/cross_relalink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/cross_rela1link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:src="@drawable/cross_icon_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/social_login_progress_linkedIn" android:layout_centerInParent="true" android:visibility="gone"/>
+</RelativeLayout>

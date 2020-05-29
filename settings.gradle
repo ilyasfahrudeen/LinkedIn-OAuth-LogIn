@@ -1,2 +1,3 @@
-include ':app', ':signinwithlinkedin'
+include ':app'
 rootProject.name='OAuthLinkedIn'
+include ':loginwithlinkedin'
